@@ -104,7 +104,6 @@ class Game
             input = get_input
       
             while @correct_letters.union(@incorrect_letters).include?(input)
-                p @correct_letters.union(@incorrect_letters)
                 print "Please choose a letter you haven't used yet: "
                 input = get_input
             end
